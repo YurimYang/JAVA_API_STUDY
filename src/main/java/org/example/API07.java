@@ -4,7 +4,7 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.client.HttpClient;
 
-
+//JVM -> main Thread
 public class API07 {
     public static void main(String[] args) {
         String imageUrl = "https://sum.su.or.kr:8888/Themes/main/images/sub/audio_defaultimg.jpg";
