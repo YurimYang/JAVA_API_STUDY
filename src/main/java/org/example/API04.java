@@ -28,7 +28,7 @@ public class API04 {
             int price = Integer.parseInt(sc.nextLine());
 
             //VO에 묶고, LIST에 담기
-            Book book = new Book(title,company, name, price); //@AllArgsConstructor때문에 생성자 존재
+            Book book = new Book(1,title,company, name, price); //@AllArgsConstructor때문에 생성자 존재
             books.add(book);
         }
         sc.close();

@@ -29,7 +29,7 @@ public class API01 {
             int price = Integer.parseInt(sc.nextLine());
 
             //VO에 묶고, LIST에 담기
-            Book book = new Book(title,company, name, price); //@AllArgsConstructor때문에 생성자 존재
+            Book book = new Book(1, title,company, name, price); //@AllArgsConstructor때문에 생성자 존재
             list.add(book);
         }
         sc.close(); //읽는 과정이 끝났으므로 scanner는 닫아준다.

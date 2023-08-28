@@ -8,6 +8,7 @@ import lombok.*;
 @AllArgsConstructor
 
 public class Book {
+    private int num;
     private String title;
     private String company;
     private String name;
